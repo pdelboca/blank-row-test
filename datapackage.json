@@ -1,0 +1,25 @@
+{
+  "resources": [
+    {
+      "name": "blank-row",
+      "type": "table",
+      "path": "blank-row.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "A",
+            "type": "string"
+          },
+          {
+            "name": "B",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
